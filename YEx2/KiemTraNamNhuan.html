@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ktNamNhuan</title>
+</head>
+<body>
+    <script>
+        var y=parseInt(prompt("Nhap vao mot nam: "));
+        if(y%4==0){
+            if(y%100==0 && y%400!=0){
+                document.write(y+" Khong phai nam nhuan");
+            }
+            else{
+                document.write(y+" la nam nhuan");
+            }
+        }
+        else{
+            document.write(y+" Khong phai nam nhuan");
+        }
+    </script>
+</body>
+</html>
